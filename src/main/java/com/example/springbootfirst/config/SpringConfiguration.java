@@ -81,7 +81,7 @@ public class SpringConfiguration {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("http://localhost:5173","https://ems-react-pi.vercel.app/"));
+        config.setAllowedOrigins(List.of("http://localhost:5173","https://employee-management-system-tau-five.vercel.app/"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowCredentials(true);
